@@ -27,7 +27,7 @@ const NewTicket = () => {
     priority: 'Medium',
     category: ''
   });
-  const [chatMessage, setChat Message] = useState('');
+  const [chatMessage, setChatMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
 
   const handleSubmit = (e) => {
